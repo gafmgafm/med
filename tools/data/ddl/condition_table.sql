@@ -1,0 +1,8 @@
+--id,name,date_created,date_modified
+
+CREATE TABLE condition (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
+    date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL
+)
