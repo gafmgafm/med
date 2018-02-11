@@ -19,3 +19,7 @@
 #id {
     width: 7em;
 }
+
+h1, h2, h3 {
+    margin-top: 1.34em;
+}
