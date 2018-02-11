@@ -1,4 +1,6 @@
-<?php require_once('zheader.php');
+<?php 
+
+require_once('zheader.php');
 
 $db = getDatabase();
 $id = $_GET['id'];

@@ -4,14 +4,16 @@ require_once('zheader.php');
 
 $search = isset($_GET['search']) ? strtolower($_GET['search']) : '';
 
-echo '<h1>Conditions List</h1>'.PHP_EOL;
-
 $db = getDatabase();
 $where = ($search == '') ? '' : " WHERE lower(name) LIKE '%$search%' ";
 $stmt = $db->prepare("SELECT id, name FROM condition $where ORDER BY 1");
 $stmt->execute();
 $data = $stmt->fetchAll(PDO::FETCH_NUM);
+
 ?>
+
+<h1>Conditions List <a href="condition_new.php" class="btn btn-primary ml-5">New</a></h1>
+
 <div class="row">
     <div class="col-12">
         <form class="" action="condition_list.php" method="get">
