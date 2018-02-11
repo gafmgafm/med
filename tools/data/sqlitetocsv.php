@@ -16,7 +16,7 @@ foreach ($ddlFiles as $ddl) {
     $content = file(__DIR__."/ddl/{$ddl}_table.sql");
     $line = array_shift($content);
     $line = trim(substr($line, 2));
-    $sql = "SELECT $line FROM $ddl";
+    $sql = "SELECT $line FROM $ddl ORDER BY 1";
     $content = str_replace(',', "\t", $line).PHP_EOL;
     $stmt = $db->prepare($sql);
     $stmt->execute();
