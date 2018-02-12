@@ -113,7 +113,7 @@ $data = $stmt->fetchAll(PDO::FETCH_NUM);
 if (sizeof($data) == 0) {
     echo '<p>No relation from other conditions to this condition found</p>'.PHP_EOL;
 } else {
-    tableHeader(array('Id', 'Condition Id', 'Condition Name', 'Action', 'Relation', 'This Condition'));
+    tableHeader(array('Id', 'Condition Id', 'Condition Name', 'Relation', 'This Condition', 'Action'));
     foreach ($data as $row) {
         $row[] = "<a href=condition_relation_delete.php?id={$row[0]}&redirect=$PAGE>Delete Relation</a>";
         $row[1] = "<a href=condition_edit.php?id={$row[1]}>{$row[1]}</a>";
