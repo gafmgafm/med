@@ -39,7 +39,7 @@ function tableFooter() {
 }
 
 function formSelect($data, $name, $selected = null, $required = true) {
-    echo "<select class=form-control name=$name id=$name";
+    echo "<select class=\"form-control m-2\" name=$name id=$name";
     if ($required) echo ' required=required';
     echo '>'.PHP_EOL;
     foreach ($data as $item) {
