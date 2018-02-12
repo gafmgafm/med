@@ -18,6 +18,7 @@ $data = $data[0];
 $stmt = $db->prepare("SELECT id, name FROM relation_type ORDER BY 1,2");
 $stmt->execute();
 $relations = $stmt->fetchAll(PDO::FETCH_NUM);
+$conditionName = $data['name'];
 ?>
 
 <h1>Condition Edit</h1>
@@ -29,7 +30,7 @@ $relations = $stmt->fetchAll(PDO::FETCH_NUM);
 </div>
 <div class="form-group">
     <label for="name">Name</label>
-    <input type="text" class="form-control" name="name" id="name" value="<?= $data['name'] ?>" required=required></input>
+    <input type="text" class="form-control" name="name" id="name" value="<?= $conditionName ?>" required=required></input>
 </div>
 <input type="hidden" name="xaction" value="save" />
 <button type="submit" class="btn btn-primary">Save</button>
@@ -85,37 +86,33 @@ if (sizeof($data) == 0) {
         </form>
     </div>
 </div>
-
-<h3>From this to others</h3>
 <?php
-$stmt = $db->prepare("SELECT cr.id, rt.name, cto.id, cto.name  FROM condition_relation cr JOIN condition cto ON cr.to_condition_id = cto.id JOIN relation_type rt ON cr.relation_type_id = rt.id WHERE from_condition_id = ? ORDER BY 1");
+$stmt = $db->prepare("SELECT cr.id, '$conditionName', rt.name, cto.id, cto.name  FROM condition_relation cr JOIN condition cto ON cr.to_condition_id = cto.id JOIN relation_type rt ON cr.relation_type_id = rt.id WHERE from_condition_id = ? ORDER BY 1");
 $stmt->execute(array($id));
 $data = $stmt->fetchAll(PDO::FETCH_NUM);
 if (sizeof($data) == 0) {
-    echo '<p>No Relation Found</p>'.PHP_EOL;
+    echo '<p>No relation from this condition to other conditions found</p>'.PHP_EOL;
 } else {
-    tableHeader(array('Id', 'Relation', 'Condition Id', 'Condition Name', 'Action'));
+    tableHeader(array('Id', 'This Condition', 'Relation', 'Condition Id', 'Condition Name', 'Action'));
     foreach ($data as $row) {
         $row[] = "<a href=condition_relation_delete.php?id={$row[0]}&redirect=$PAGE>Delete Relation</a>";
-        $row[2] = "<a href=condition_edit.php?id={$row[2]}>{$row[2]}</a>";
+        $row[3] = "<a href=condition_edit.php?id={$row[3]}>{$row[3]}</a>";
         tableRow($row);
     }
     tableFooter();
 }
 ?>
-
-<h3>From others to this</h3>
 <?php
-$stmt = $db->prepare("SELECT cr.id, rt.name, cto.id, cto.name  FROM condition_relation cr JOIN condition cto ON cr.from_condition_id = cto.id JOIN relation_type rt ON cr.relation_type_id = rt.id WHERE to_condition_id = ? ORDER BY 1");
+$stmt = $db->prepare("SELECT cr.id, cto.id, cto.name, rt.name, '$conditionName' FROM condition_relation cr JOIN condition cto ON cr.from_condition_id = cto.id JOIN relation_type rt ON cr.relation_type_id = rt.id WHERE to_condition_id = ? ORDER BY 1");
 $stmt->execute(array($id));
 $data = $stmt->fetchAll(PDO::FETCH_NUM);
 if (sizeof($data) == 0) {
-    echo '<p>No Relation Found</p>'.PHP_EOL;
+    echo '<p>No relation from other conditions to this condition found</p>'.PHP_EOL;
 } else {
-    tableHeader(array('Id', 'Relation', 'Condition Id', 'Condition Name', 'Action'));
+    tableHeader(array('Id', 'Condition Id', 'Condition Name', 'Action', 'Relation', 'This Condition'));
     foreach ($data as $row) {
         $row[] = "<a href=condition_relation_delete.php?id={$row[0]}&redirect=$PAGE>Delete Relation</a>";
-        $row[2] = "<a href=condition_edit.php?id={$row[2]}>{$row[2]}</a>";
+        $row[1] = "<a href=condition_edit.php?id={$row[1]}>{$row[1]}</a>";
         tableRow($row);
     }
     tableFooter();
