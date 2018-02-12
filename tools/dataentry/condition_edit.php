@@ -21,7 +21,11 @@ $relations = $stmt->fetchAll(PDO::FETCH_NUM);
 $conditionName = $data['name'];
 ?>
 
-<h1>Condition Edit</h1>
+<h1>Condition Edit 
+<a href="https://en.wikipedia.org/wiki/Special:Search/<?= urlencode($conditionName) ?>" target="_blank"><img src="ziconwikipedia.png" height="16" width="16"/></a>
+<a href="https://google.com/search?q=<?= urlencode($conditionName) ?>" target="_blank"><img src="zicongoogle.png" height="16" width="16"/></a>
+<a href="https://google.com/search?tbm=isch&q=<?= urlencode($conditionName) ?>" target="_blank"><img src="zicongoogle.png" height="16" width="16"/></a>
+</h1>
 
 <form action="condition_edit.php" method="get">
 <div class="form-group">
