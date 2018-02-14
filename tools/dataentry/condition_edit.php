@@ -101,6 +101,7 @@ if (sizeof($data) == 0) {
     foreach ($data as $row) {
         $row[] = "<a href=condition_relation_delete.php?id={$row[0]}&redirect=$PAGE>Delete Relation</a>";
         $row[3] = "<a href=condition_edit.php?id={$row[3]}>{$row[3]}</a>";
+        $row[0] = "<a href=condition_relation_edit.php?id={$row[0]}>{$row[0]}</a>";
         tableRow($row);
     }
     tableFooter();
@@ -117,6 +118,7 @@ if (sizeof($data) == 0) {
     foreach ($data as $row) {
         $row[] = "<a href=condition_relation_delete.php?id={$row[0]}&redirect=$PAGE>Delete Relation</a>";
         $row[1] = "<a href=condition_edit.php?id={$row[1]}>{$row[1]}</a>";
+        $row[0] = "<a href=condition_relation_edit.php?id={$row[0]}>{$row[0]}</a>";
         tableRow($row);
     }
     tableFooter();
