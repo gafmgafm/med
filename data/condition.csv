@@ -6,12 +6,12 @@ id	name	date_created	date_modified
 5	Paratyphoid fever A	2018-02-10 05:15:39	2018-02-10 05:15:39
 6	Paratyphoid fever B	2018-02-10 05:15:39	2018-02-10 05:15:39
 7	Paratyphoid fever C	2018-02-10 05:15:39	2018-02-10 05:15:39
-8	Paratyphoid fever, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
+8	Salmonella enterica, serotype Paratyphi A infection	2018-02-10 05:15:39	2018-02-15 08:28:38
 9	Salmonella enteritis	2018-02-10 05:15:39	2018-02-10 05:15:39
 10	Salmonella sepsis	2018-02-10 05:15:39	2018-02-10 05:15:39
-11	Localized salmonella infections	2018-02-10 05:15:39	2018-02-10 05:15:39
-12	Other specified salmonella infections	2018-02-10 05:15:39	2018-02-10 05:15:39
-13	Salmonella infection, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
+11	 Salmonella typhi infection	2018-02-10 05:15:39	2018-02-15 08:21:21
+12	Salmonella infection, non typhoid	2018-02-10 05:15:39	2018-02-15 08:34:33
+13	Salmonella enterica, serotype Paratyphi B infection	2018-02-10 05:15:39	2018-02-15 08:31:08
 14	Shigellosis due to Shigella dysenteriae	2018-02-10 05:15:39	2018-02-10 05:15:39
 15	Shigellosis due to Shigella flexneri	2018-02-10 05:15:39	2018-02-10 05:15:39
 16	Shigellosis due to Shigella boydii	2018-02-10 05:15:39	2018-02-10 05:15:39
@@ -9083,3 +9083,6 @@ id	name	date_created	date_modified
 9082	Resistance to multiple antimicrobial drugs	2018-02-10 05:15:39	2018-02-10 05:15:39
 9083	Resistance to other specified antimicrobial drug	2018-02-10 05:15:39	2018-02-10 05:15:39
 9084	Resistance to unspecified antimicrobial drugs	2018-02-10 05:15:39	2018-02-10 05:15:39
+9085	Secretory diarrhoea	2018-02-12 09:01:34	2018-02-12 09:01:34
+9086	Salmonella enteritidis infection	2018-02-15 08:25:42	2018-02-15 08:27:53
+9087	Salmonella enterica, serotype Paratyphi C infection	2018-02-15 08:31:19	2018-02-15 08:31:40
