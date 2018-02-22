@@ -1950,7 +1950,7 @@ id	name	date_created	date_modified
 1949	Delirium not superimposed on dementia, so described	2018-02-10 05:15:39	2018-02-10 05:15:39
 1950	Delirium superimposed on dementia	2018-02-10 05:15:39	2018-02-10 05:15:39
 1951	Other delirium	2018-02-10 05:15:39	2018-02-10 05:15:39
-1952	Delirium, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
+1952	Delirium	2018-02-10 05:15:39	2018-02-22 10:00:22
 1953	Organic hallucinosis	2018-02-10 05:15:39	2018-02-10 05:15:39
 1954	Organic catatonic disorder	2018-02-10 05:15:39	2018-02-10 05:15:39
 1955	Organic delusional [schizophrenia-like] disorder	2018-02-10 05:15:39	2018-02-10 05:15:39
@@ -3870,7 +3870,7 @@ id	name	date_created	date_modified
 3869	Postprocedural disorder of digestive system, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
 3870	Haematemesis	2018-02-10 05:15:39	2018-02-10 05:15:39
 3871	Melaena	2018-02-10 05:15:39	2018-02-10 05:15:39
-3872	Gastrointestinal haemorrhage, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
+3872	Gastrointestinal haemorrhage	2018-02-10 05:15:39	2018-02-22 10:10:34
 3873	Other specified diseases of digestive system	2018-02-10 05:15:39	2018-02-10 05:15:39
 3874	Disease of digestive system, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
 3875	Tuberculous disorders of intestines, peritoneum and mesenteric glands	2018-02-10 05:15:39	2018-02-10 05:15:39
@@ -6564,7 +6564,7 @@ id	name	date_created	date_modified
 6563	Other and unspecified voice disturbances	2018-02-10 05:15:39	2018-02-10 05:15:39
 6564	Drug-induced fever	2018-02-10 05:15:39	2018-02-10 05:15:39
 6565	Other specified fever	2018-02-10 05:15:39	2018-02-10 05:15:39
-6566	Fever, unspecified	2018-02-10 05:15:39	2018-02-10 05:15:39
+6566	Fever	2018-02-10 05:15:39	2018-02-22 10:22:24
 6567	Acute pain	2018-02-10 05:15:39	2018-02-10 05:15:39
 6568	Chronic intractable pain	2018-02-10 05:15:39	2018-02-10 05:15:39
 6569	Other chronic pain	2018-02-10 05:15:39	2018-02-10 05:15:39
@@ -9086,3 +9086,6 @@ id	name	date_created	date_modified
 9085	Secretory diarrhoea	2018-02-12 09:01:34	2018-02-12 09:01:34
 9086	Salmonella enteritidis infection	2018-02-15 08:25:42	2018-02-15 08:27:53
 9087	Salmonella enterica, serotype Paratyphi C infection	2018-02-15 08:31:19	2018-02-15 08:31:40
+9088	Diarrhoea	2018-02-22 10:06:27	2018-02-22 10:06:27
+9089	Vomiting	2018-02-22 10:12:48	2018-02-22 10:12:48
+9090	Nausea	2018-02-22 10:13:23	2018-02-22 10:13:23
