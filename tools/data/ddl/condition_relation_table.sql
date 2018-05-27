@@ -4,7 +4,7 @@ CREATE TABLE condition_relation (
     id INTEGER PRIMARY KEY,
     from_condition_id INTEGER NOT NULL,
     to_condition_id INTEGER NOT NULL,
-    relation_type_id INTEGER NOT NULL,
+    relation_type_id CHAR(1) NOT NULL,
     publication_id INTEGER NULL,
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL,
