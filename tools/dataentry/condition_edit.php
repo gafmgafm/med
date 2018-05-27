@@ -16,9 +16,6 @@ $stmt->execute(array($id));
 $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $data = $data[0];
 
-$stmt = $db->prepare("SELECT id, name FROM relation_type ORDER BY 1,2");
-$stmt->execute();
-$relations = $stmt->fetchAll(PDO::FETCH_NUM);
 $conditionName = $data['name'];
 ?>
 
@@ -82,14 +79,14 @@ if (sizeof($data) == 0) {
     <div class="col-12">
         <form class="" action="condition_relation_add.php" method="get">
         <input type="hidden" name="cid" value="<?= $id ?>"/>
-        <input type="hidden" name="redirect" value="<?= currentPage() ?>" />
         <div class="input-group">`
             <select name="direction" class="form-control m-2">
                 <option value="fromto">From this to other</option>
                 <option value="tofrom">From other to this</option>
             </select>
-            <?php formSelect($relations, "relation", 1); ?>
+            <?php formSelect(getConditionTypeList(), "relation_type_id"); ?>
             <input type="text" class="form-control m-2" name="otherid" id="" value="" required=required placeholder="Condition Name"></input>
+            <input type="hidden" name="redirect" value="<?= currentPage() ?>" />
             <button type="submit" class="btn btn-primary m-2">Add</button>
         </div>
         </form>
