@@ -1,16 +1,17 @@
 <?php 
 
 require_once('zheader.php');
+require_once('dao/condition_type_dao.php');
 
 $db = getDatabase();
 $id = $_GET['id'];
 
 if (isset($_GET['xaction']) && $_GET['xaction'] == 'save') {
-    $stmt = $db->prepare('UPDATE condition SET name = ?, date_modified = ? where id = ?');
-    $stmt->execute(array($_GET['name'], dbTimestamp(), $id));
+    $stmt = $db->prepare('UPDATE condition SET name = ?, condition_type_id = ?, date_modified = ? where id = ?');
+    $stmt->execute(array($_GET['name'], $_GET['condition_type_id'], dbTimestamp(), $id));
 }
 
-$stmt = $db->prepare("SELECT id, name FROM condition WHERE id = ?");
+$stmt = $db->prepare("SELECT id, name, condition_type_id FROM condition WHERE id = ?");
 $stmt->execute(array($id));
 $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $data = $data[0];
@@ -35,6 +36,10 @@ $conditionName = $data['name'];
 <div class="form-group">
     <label for="name">Name</label>
     <input type="text" class="form-control" name="name" id="name" value="<?= $conditionName ?>" required=required></input>
+</div>
+<div class="form-group">
+    <label for="condition_type_id">Type</label>
+    <?php formSelect(getConditionTypeList(), "condition_type_id", $data['condition_type_id']); ?>
 </div>
 <input type="hidden" name="xaction" value="save" />
 <button type="submit" class="btn btn-primary">Save</button>
