@@ -1,1 +1,4 @@
 id	from_condition_id	to_condition_id	relation_type_id	publication_id	date_created	date_modified
+1	2	1	C	1	2018-05-27 07:13:37	2018-05-27 07:13:37
+2	3	1	C	1	2018-05-27 07:15:53	2018-05-27 07:15:53
+3	4	1	C	1	2018-05-27 07:19:40	2018-05-27 07:19:40

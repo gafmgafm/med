@@ -1,1 +1,7 @@
 id	name	condition_type_id	date_created	date_modified
+1	Abdominal Distention	S	2018-05-27 03:58:03	2018-05-27 06:53:23
+2	Bowel Obstruction	I	2018-05-27 06:52:44	2018-05-27 06:52:44
+3	Peritonitis	S	2018-05-27 07:15:42	2018-05-27 07:15:42
+4	Aerophagia	C	2018-05-27 07:19:30	2018-05-27 07:19:30
+5	Male	S	2018-05-27 07:21:46	2018-05-27 07:21:46
+6	Female	S	2018-05-27 07:21:58	2018-05-27 07:21:58
