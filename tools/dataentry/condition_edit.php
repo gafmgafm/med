@@ -2,6 +2,7 @@
 
 require_once('zheader.php');
 require_once('dao/condition_type_dao.php');
+require_once('dao/relation_type_dao.php');
 
 $db = getDatabase();
 $id = $_GET['id'];
@@ -84,7 +85,7 @@ if (sizeof($data) == 0) {
                 <option value="fromto">From this to other</option>
                 <option value="tofrom">From other to this</option>
             </select>
-            <?php formSelect(getConditionTypeList(), "relation_type_id"); ?>
+            <?php formSelect(getRelationTypeList(), "relation_type_id"); ?>
             <input type="text" class="form-control m-2" name="otherid" id="" value="" required=required placeholder="Condition Name"></input>
             <input type="hidden" name="redirect" value="<?= currentPage() ?>" />
             <button type="submit" class="btn btn-primary m-2">Add</button>
