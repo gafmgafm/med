@@ -19,7 +19,7 @@ $data = $data[0];
 <form action="relation_type_edit.php" method="get">
 <div class="form-group">
     <label for="id">Id</label>
-    <input type="number" class="form-control" name="id" id="id" value="<?= $data['id'] ?>" readonly=readonly></input>
+    <input type="text" class="form-control" name="id" id="id" value="<?= $data['id'] ?>" readonly=readonly></input>
 </div>
 <div class="form-group">
     <label for="name">Name</label>
