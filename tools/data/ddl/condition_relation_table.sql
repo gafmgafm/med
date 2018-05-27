@@ -11,7 +11,7 @@ CREATE TABLE condition_relation (
     FOREIGN KEY (from_condition_id) REFERENCES condition(id),
     FOREIGN KEY (to_condition_id) REFERENCES condition(id),
     FOREIGN KEY (relation_type_id) REFERENCES relation_type(id),
-    FOREIGN KEY (publication_id) REFERENCES relation_type(id)
+    FOREIGN KEY (publication_id) REFERENCES publication(id)
 )
 ;
 CREATE INDEX cr_01_ix ON condition_relation (from_condition_id)
