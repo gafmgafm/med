@@ -18,3 +18,9 @@ id	name	condition_type_id	date_created	date_modified
 17	Anorexia	I	2018-05-27 10:13:16	2018-05-27 10:13:16
 18	Jaundince	S	2018-05-27 10:14:00	2018-05-27 10:14:00
 19	Weight Change	S	2018-05-27 10:14:31	2018-05-27 10:14:31
+20	Abdominal Trauma	I	2018-05-28 11:06:04	2018-05-28 11:06:04
+21	Abdominal Rigidity	S	2018-05-28 11:07:07	2018-05-28 11:07:07
+22	Absent Bowel Sounds	S	2018-05-28 11:10:04	2018-05-28 11:10:04
+23	Hyperactive Bowel Sounds	S	2018-05-28 11:10:51	2018-05-28 11:10:51
+24	Hypotension	S	2018-05-28 11:12:00	2018-05-28 11:12:00
+25	Vomiting	S	2018-05-28 11:13:16	2018-05-28 11:13:16
