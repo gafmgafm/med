@@ -10,3 +10,5 @@ CREATE TABLE condition (
 )
 ;
 CREATE INDEX c_01_ix ON condition (condition_type_id)
+;
+CREATE UNIQUE INDEX c_02_ix ON condition (name)

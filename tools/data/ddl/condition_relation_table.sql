@@ -21,3 +21,5 @@ CREATE INDEX cr_02_ix ON condition_relation (to_condition_id)
 CREATE INDEX cr_03_ix ON condition_relation (relation_type_id)
 ;
 CREATE INDEX cr_04_ix ON condition_relation (publication_id)
+;
+CREATE INDEX cr_05_ix ON condition_relation (from_condition_id, to_condition_id, relation_type_id, publication_id)

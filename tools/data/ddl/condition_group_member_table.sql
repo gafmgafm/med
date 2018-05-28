@@ -13,5 +13,5 @@ CREATE INDEX cgm_01_ix ON condition_group_member (condition_group_id)
 ;
 CREATE INDEX cgm_02_ix ON condition_group_member (condition_id)
 ;
-CREATE INDEX cgm_03_ix ON condition_group_member (condition_group_id,condition_id)
+CREATE UNIQUE INDEX cgm_03_ix ON condition_group_member (condition_group_id,condition_id)
 ;
