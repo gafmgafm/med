@@ -37,3 +37,4 @@ id	name	condition_type_id	date_created	date_modified
 36	Tachycardia	S	2018-05-30 09:06:53	2018-05-30 09:06:53
 37	Tachypnea	S	2018-05-30 09:07:29	2018-05-30 09:07:29
 38	Heart Failure	I	2018-05-30 09:10:33	2018-05-30 09:10:33
+39	Irritable Bowel Syndrome	I	2018-05-30 09:15:50	2018-05-30 09:15:50
