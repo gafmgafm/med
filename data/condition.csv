@@ -31,3 +31,9 @@ id	name	condition_type_id	date_created	date_modified
 30	Fever	S	2018-05-29 10:09:07	2018-05-29 10:09:07
 31	Hepatomegaly	S	2018-05-29 10:09:48	2018-05-29 10:09:48
 32	Nausea	S	2018-05-29 10:12:39	2018-05-29 10:12:39
+33	Hypoactive Bowel Sounds	S	2018-05-30 09:05:33	2018-05-30 09:05:33
+34	Jugular Vein Distention	S	2018-05-30 09:06:05	2018-05-30 09:06:05
+35	Rebound Tenderness	S	2018-05-30 09:06:21	2018-05-30 09:06:21
+36	Tachycardia	S	2018-05-30 09:06:53	2018-05-30 09:06:53
+37	Tachypnea	S	2018-05-30 09:07:29	2018-05-30 09:07:29
+38	Heart Failure	I	2018-05-30 09:10:33	2018-05-30 09:10:33
