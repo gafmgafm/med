@@ -38,3 +38,4 @@ id	name	condition_type_id	date_created	date_modified
 37	Tachypnea	S	2018-05-30 09:07:29	2018-05-30 09:07:29
 38	Heart Failure	I	2018-05-30 09:10:33	2018-05-30 09:10:33
 39	Irritable Bowel Syndrome	I	2018-05-30 09:15:50	2018-05-30 09:15:50
+40	Large Bowel Obstruction	I	2018-05-31 11:06:26	2018-05-31 11:06:26
