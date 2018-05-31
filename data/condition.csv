@@ -39,3 +39,4 @@ id	name	condition_type_id	date_created	date_modified
 38	Heart Failure	I	2018-05-30 09:10:33	2018-05-30 09:10:33
 39	Irritable Bowel Syndrome	I	2018-05-30 09:15:50	2018-05-30 09:15:50
 40	Large Bowel Obstruction	I	2018-05-31 11:06:26	2018-05-31 11:06:26
+41	Mesenteric Arterial Occlusion	I	2018-05-31 11:11:15	2018-05-31 11:11:15
