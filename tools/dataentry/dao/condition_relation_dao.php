@@ -29,6 +29,12 @@ class ConditionRelationDAO {
         return $data;
     }
 
+    public static function add($from_condition_id, $to_condition_id, $relation_type_id, $publication_id) {
+        $db = getDatabase();
+        $stmt = $db->prepare('INSERT INTO condition_relation (from_condition_id,to_condition_id,relation_type_id,publication_id) VALUES (?,?,?,?)');
+        $stmt->execute(array($from_condition_id, $to_condition_id, $relation_type_id, $publication_id2));
+    }
+
 }
 
 ?>

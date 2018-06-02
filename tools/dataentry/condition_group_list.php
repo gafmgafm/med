@@ -15,4 +15,6 @@ foreach ($data as $row) {
 }
 HtmlHelper::tableFooter();
 
-require_once('zfooter.php'); ?>
+require_once('zfooter.php');
+
+?>

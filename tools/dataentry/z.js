@@ -18,3 +18,9 @@ function ajaxGet(url, okfnc, notokfnc) {
 
     request.send();
 }
+
+function keyFromValue(data, value) {
+    for (i=0; i < data.length; i++) {
+        if (data[i][1] == value) return data[i][0];
+    }
+}

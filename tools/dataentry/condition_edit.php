@@ -24,21 +24,25 @@ $conditionNameEncoded = urlencode($data['name']);
 <a href="https://google.com/search?tbm=isch&q=<?= $conditionNameEncoded ?>" target="_blank"><img src="zicongoogle.png" height="16" width="16"/></a>
 </h1>
 
-<form action="condition_edit.php" method="get">
+<form action="condition_edit.php" method="get" class="form-horizontal">
     <div class="form-group">
-        <label for="id">Id</label>
-        <input type="number" class="form-control" name="id" id="id" value="<?= $data['id'] ?>" readonly=readonly></input>
+        <label for="id" class="control-label col-md-1">Id</label>
+        <div class="col-md-1">
+            <input type="number" class="form-control" name="id" id="id" value="<?= $data['id'] ?>" readonly=readonly></input>
+        </div>
+        <label for="name" class="control-label col-md-1">Name</label>
+        <div class="col-md-9">
+            <input type="text" class="form-control" name="name" id="name" value="<?= $data['name'] ?>" required=required></input>
+        </div>
     </div>
     <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" name="name" id="name" value="<?= $data['name'] ?>" required=required></input>
-    </div>
-    <div class="form-group">
-        <label for="condition_type_id">Type</label>
-        <?php HtmlHelper::formSelect(ConditionTypeDAO::all(), "condition_type_id", $data['condition_type_id']); ?>
+        <label for="condition_type_id" class="control-label col-md-3">Type</label>
+        <div class="col-md-9">
+            <?php HtmlHelper::formSelect(ConditionTypeDAO::all(), "condition_type_id", $data['condition_type_id'], true); ?>
+        </div>
     </div>
     <input type="hidden" name="xaction" value="save" />
-    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="submit" class="btn btn-primary pull-right">Save</button>
 </form>
 
 <h2>Group</h2>
@@ -57,7 +61,7 @@ if (sizeof($data) == 0) {
 }
 ?>
 
-<h2>Relations</h2>
+<h2>Relations <a href="condition_relation_new.php?id=<?= $id ?>&redirect=<?= $PAGE ?>" class="btn btn-primary ml-3">Add</a></h2>
 
 <?php
 $data = ConditionRelationDAO::from($id);
@@ -87,6 +91,7 @@ if (sizeof($data) == 0) {
     }
     HtmlHelper::tableFooter();
 }
-?>
 
-<?php require_once('zfooter.php'); ?>
+require_once('zfooter.php');
+
+?>

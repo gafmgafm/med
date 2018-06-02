@@ -9,14 +9,15 @@
 </head>
 <body>
 <div class="container">
-    <nav class="navbar navbar-light bg-light justify-content-start">
+    <nav class="navbar navbar-default">
         <a class="navbar-brand" href="/index.php">Data Entry</a>
-        <a class="nav-link" href="/condition_list.php">Condition</a>
-        <a class="nav-link" href="/condition_group_list.php">Condition Group</a>
-        <a class="nav-link" href="/publication_list.php">Publication</a>
-        &nbsp;|&nbsp;
-        <a class="nav-link" href="/condition_type_list.php">Condition Type</a>
-        <a class="nav-link" href="/relation_type_list.php">Relation Type</a>
+        <ul class="nav navbar-nav">
+            <li><a class="nav-link" href="/condition_list.php">Condition</a></li>
+            <li><a class="nav-link" href="/condition_group_list.php">Condition Group</a></li>
+            <li><a class="nav-link" href="/publication_list.php">Publication</a></li>
+            <li><a class="nav-link">&nbsp;|&nbsp;</a></li>
+            <li><a class="nav-link" href="/condition_type_list.php">Condition Type</a></li>
+            <li><a class="nav-link" href="/relation_type_list.php">Relation Type</a></li>
     </nav>
 <?php
 error_reporting(-1);
