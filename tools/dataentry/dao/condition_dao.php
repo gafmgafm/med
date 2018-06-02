@@ -28,4 +28,18 @@ class ConditionDAO {
         return $data;
     }
 
+    public static function add($name, $condition_type_id) {
+        $db = getDatabase();
+        $stmt = $db->prepare('INSERT INTO condition (name,condition_type_id,date_created,date_modified) VALUES (?, ?, ?, ?)');
+        $stmt->execute(array($name, $condition_type_id,dbTimestamp(), dbTimestamp()));
+        $id = $db->lastInsertId();
+        return $id;
+    }
+
+    public static function delete($id) {
+        $db = getDatabase();
+        $stmt = $db->prepare('DELETE FROM condition WHERE id = ?');
+        $stmt->execute(array($id));
+    }
+
 }
