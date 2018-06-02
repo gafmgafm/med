@@ -1,11 +1,18 @@
-<?php require_once('zheader.php');
+<?php
+
+require_once('zheader.php');
+require_once('dao/relation_type_dao.php');
 
 echo '<h1>Relation Types List</h1>'.PHP_EOL;
 
-$db = getDatabase();
-$stmt = $db->prepare('SELECT id, name FROM relation_type ORDER BY 1');
-$stmt->execute();
-$data = $stmt->fetchAll(PDO::FETCH_NUM);
-tabulate('relation_type', $data, array('Id', 'Name'));
+$data = RelationTypeDAO::all();
+
+HtmlHelper::tableHeader(array('Id', 'Name', 'Actions'));
+foreach ($data as $row) {
+    $row[] = "<a href=relation_type_delete.php?id={$row[0]}>Delete</a>";
+    $row[0] = "<a href=relation_type_edit.php?id={$row[0]}>{$row[0]}</a>";
+    HtmlHelper::tableRow($row);
+}
+HtmlHelper::tableFooter();
 
 require_once('zfooter.php'); ?>

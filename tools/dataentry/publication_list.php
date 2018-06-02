@@ -1,11 +1,18 @@
-<?php require_once('zheader.php');
+<?php
+
+require_once('zheader.php');
+require_once('dao/publication_dao.php');
 
 echo '<h1>Publication List</h1>'.PHP_EOL;
 
-$db = getDatabase();
-$stmt = $db->prepare('SELECT id, name FROM publication ORDER BY 1');
-$stmt->execute();
-$data = $stmt->fetchAll(PDO::FETCH_NUM);
-tabulate('publication', $data, array('Id', 'Name'));
+$data = PublicationDAO::all();
+
+HtmlHelper::tableHeader(array('Id', 'Name', 'Actions'));
+foreach ($data as $row) {
+    $row[] = "<a href=publication_delete.php?id={$row[0]}>Delete</a>";
+    $row[0] = "<a href=publication_edit.php?id={$row[0]}>{$row[0]}</a>";
+    HtmlHelper::tableRow($row);
+}
+HtmlHelper::tableFooter();
 
 require_once('zfooter.php'); ?>

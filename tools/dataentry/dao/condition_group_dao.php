@@ -2,11 +2,11 @@
 
 require_once(__DIR__.'/../../lib/lib.php');
 
-class RelationTypeDAO {
+class ConditionGroupDAO {
 
-    public static function all($order = 'id') {
+    public static function all() {
         $db = getDatabase();
-        $stmt = $db->prepare("SELECT id, name FROM relation_type ORDER BY $order");
+        $stmt = $db->prepare('SELECT id, name FROM condition_group ORDER BY 1');
         $stmt->execute();
         $data = $stmt->fetchAll(PDO::FETCH_NUM);
         return $data;
