@@ -1,19 +1,6 @@
 <?php
 
-function tabulate($prefix, $data, $headers) {
-    $headers[] = 'Actions';
-    tableHeader($headers);
-    foreach ($data as $row) {
-        echo '<tr>'.PHP_EOL;
-        echo "<td><a href={$prefix}_edit.php?id={$row[0]}>{$row[0]}</a></td>".PHP_EOL;
-        for ($i=1; $i < sizeof($row); $i++) {
-            echo "<td>{$row[$i]}</td>".PHP_EOL;
-        }
-        echo "<td><a href={$prefix}_delete.php?id={$row[0]}>Delete</a></td>".PHP_EOL;
-        echo '</tr>'.PHP_EOL;
-    }
-    tableFooter();
-}
+
 
 class HtmlHelper {
 
