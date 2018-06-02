@@ -1,7 +1,6 @@
 id	name	condition_type_id	date_created	date_modified
 1	Abdominal Distention	S	2018-05-27 03:58:03	2018-05-27 06:53:23
 2	Bowel Obstruction	I	2018-05-27 06:52:44	2018-05-27 06:52:44
-3	Peritonitis	S	2018-05-27 07:15:42	2018-05-27 07:15:42
 4	Aerophagia	C	2018-05-27 07:19:30	2018-05-27 07:19:30
 5	Male	S	2018-05-27 07:21:46	2018-05-27 07:21:46
 6	Female	S	2018-05-27 07:21:58	2018-05-27 07:21:58
@@ -22,7 +21,6 @@ id	name	condition_type_id	date_created	date_modified
 21	Abdominal Rigidity	S	2018-05-28 11:07:07	2018-05-28 11:07:07
 22	Absent Bowel Sounds	S	2018-05-28 11:10:04	2018-05-28 11:10:04
 23	Hyperactive Bowel Sounds	S	2018-05-28 11:10:51	2018-05-28 11:10:51
-24	Hypotension	S	2018-05-28 11:12:00	2018-05-28 11:12:00
 25	Vomiting	S	2018-05-28 11:13:16	2018-05-28 11:13:16
 26	Cirrhosis	I	2018-05-29 10:03:47	2018-05-29 10:03:47
 27	Contispation	S	2018-05-29 10:04:42	2018-05-29 10:04:42
