@@ -1,7 +1,5 @@
 <?php
 
-
-
 class HtmlHelper {
 
     public static function tableHeader($headers) {
