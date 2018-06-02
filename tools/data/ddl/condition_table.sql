@@ -6,9 +6,9 @@ CREATE TABLE condition (
     condition_type_id CHAR(1) NOT NULL,
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL,
-    FOREIGN KEY (condition_type_id) REFERENCES condition_type(id)
+    FOREIGN KEY (condition_type_id) REFERENCES condition_type(id) ON DELETE CASCADE
 )
 ;
 CREATE INDEX c_01_ix ON condition (condition_type_id)
 ;
-CREATE UNIQUE INDEX c_02_ix ON condition (name)
+CREATE UNIQUE INDEX c_02_ix ON condition (lower(name))

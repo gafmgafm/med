@@ -6,7 +6,7 @@ CREATE TABLE condition_group (
     parent_condition_group_id INTEGER,
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL,
-    FOREIGN KEY (parent_condition_group_id) REFERENCES condition_group(id)
+    FOREIGN KEY (parent_condition_group_id) REFERENCES condition_group(id) ON DELETE CASCADE
 )
 ;
 CREATE INDEX cg_01_ix ON condition_group (parent_condition_group_id)

@@ -7,4 +7,4 @@ CREATE TABLE relation_type (
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL
 )
 ;
-CREATE UNIQUE INDEX rt_01_ix ON relation_type (name)
+CREATE UNIQUE INDEX rt_01_ix ON relation_type (lower(name))

@@ -6,7 +6,9 @@ CREATE TABLE publication (
     publication_type_id INTEGER NOT NULL,
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL,
-    FOREIGN KEY (publication_type_id) REFERENCES publication_type(id)
+    FOREIGN KEY (publication_type_id) REFERENCES publication_type(id) ON DELETE CASCADE
 )
 ;
 CREATE INDEX pub_01_ix ON publication (publication_type_id)
+;
+CREATE UNIQUE INDEX pub_02_ix ON condition_type (lower(name))

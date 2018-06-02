@@ -7,4 +7,4 @@ CREATE TABLE publication_type (
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL
 )
 ;
-CREATE UNIQUE INDEX pt_01_ix ON publication_type (name)
+CREATE UNIQUE INDEX pt_01_ix ON publication_type (lower(name))

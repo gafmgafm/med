@@ -6,3 +6,5 @@ CREATE TABLE condition_type (
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL
 )
+;
+CREATE UNIQUE INDEX ct_01_ix ON condition_type (lower(name))

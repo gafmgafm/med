@@ -5,8 +5,8 @@ CREATE TABLE condition_group_member (
     condition_id INTEGER NOT NULL,
     date_created VARCHAR DEFAULT (datetime('now')) NOT NULL,
     date_modified VARCHAR DEFAULT (datetime('now')) NOT NULL,
-    FOREIGN KEY (condition_group_id) REFERENCES condition_group(id),
-    FOREIGN KEY (condition_id) REFERENCES condition(id)
+    FOREIGN KEY (condition_group_id) REFERENCES condition_group(id) ON DELETE CASCADE,
+    FOREIGN KEY (condition_id) REFERENCES condition(id) ON DELETE CASCADE
 )
 ;
 CREATE INDEX cgm_01_ix ON condition_group_member (condition_group_id)
