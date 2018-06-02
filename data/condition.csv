@@ -44,3 +44,7 @@ id	name	condition_type_id	date_created	date_modified
 43	Peritonitis	I	2018-06-01 09:18:18	2018-06-01 09:18:18
 44	Small Bowel Obstruction	I	2018-06-01 09:21:42	2018-06-01 09:21:42
 45	Toxic Megacolon	I	2018-06-01 09:23:59	2018-06-01 09:23:59
+46	Right Upper Quadrant Abdominal Mass	S	2018-06-01 23:31:57	2018-06-01 23:31:57
+47	Aortic Aneurysm	I	2018-06-01 23:32:40	2018-06-01 23:32:40
+48	Cholecystitis	I	2018-06-01 23:36:34	2018-06-01 23:36:34
+49	Cholelithiasis	I	2018-06-01 23:37:17	2018-06-01 23:37:17
