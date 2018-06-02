@@ -1,14 +1,9 @@
 <?php
 
 require_once('zheader.php');
+require_once('dao/condition_dao.php');
 
-$search = isset($_GET['search']) ? strtolower($_GET['search']) : '';
-
-$db = getDatabase();
-$where = ($search == '') ? '' : " WHERE lower(name) LIKE '%$search%' ";
-$stmt = $db->prepare("SELECT id, name FROM condition $where ORDER BY 1");
-$stmt->execute();
-$data = $stmt->fetchAll(PDO::FETCH_NUM);
+$search = isset($_GET['search']) ? $_GET['search'] : '';
 
 ?>
 
@@ -26,6 +21,16 @@ $data = $stmt->fetchAll(PDO::FETCH_NUM);
 </div>
 
 <?php
-tabulate('condition', $data, array('Id', 'Name'));
+
+$data = ConditionDAO::searchName($search);
+
+HtmlHelper::tableHeader(array('Id', 'Name', 'Actions'));
+foreach ($data as $row) {
+    $row[] = "<a href=condition_delete.php?id={$row[0]}>Delete</a>";
+    $row[0] = "<a href=condition_edit.php?id={$row[0]}>{$row[0]}</a>";
+    HtmlHelper::tableRow($row);
+}
+HtmlHelper::tableFooter();
+
 require_once('zfooter.php'); 
 ?>

@@ -52,3 +52,15 @@ $data = $data[0];
 </div>
 <input type="hidden" name="xaction" value="save" />
 </form>
+
+<script>
+new autoComplete({
+    selector: 'input[name="otherid"]',
+    source: function(term, response){
+        ajaxGet('/condition_lookup.php?term='+encodeURI(term), 
+            function(data){ response(data);},
+            function() {response([]);} 
+        );
+    }
+});
+</script>

@@ -17,6 +17,7 @@
         <a class="nav-link" href="/publication_list.php">Publication</a>
     </nav>
 <?php
+error_reporting(-1);
 require_once(__DIR__.'/../lib/lib.php');
 require_once(__DIR__.'/zutil.php');
 $PAGE = currentPage(true);
