@@ -9,7 +9,7 @@ Download the repository. You'll need:
 * PHP 7
 * PDO Sqlite enabled in your PHP environment
 
-First we will convert the data in csv format to sqlite database so you can use in the data entry tool.
+First we will convert the data in csv format to sqlite database so we can use in the data entry tool.
 
 ```
 cd data\tools
