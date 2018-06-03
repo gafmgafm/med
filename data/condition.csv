@@ -1,5 +1,5 @@
 id	name	condition_type_id	date_created	date_modified
-1	Abdominal Distention	S	2018-05-27 03:58:03	2018-05-27 06:53:23
+1	Abdominal Distention	S	2018-05-27 03:58:03	2018-06-02 10:46:56
 2	Bowel Obstruction	I	2018-05-27 06:52:44	2018-05-27 06:52:44
 4	Aerophagia	C	2018-05-27 07:19:30	2018-05-27 07:19:30
 5	Male	S	2018-05-27 07:21:46	2018-05-27 07:21:46
@@ -15,7 +15,7 @@ id	name	condition_type_id	date_created	date_modified
 15	Abdominal Mass	S	2018-05-27 10:11:05	2018-05-27 10:11:05
 16	Abdominal Pain	S	2018-05-27 10:12:14	2018-05-27 10:12:14
 17	Anorexia	I	2018-05-27 10:13:16	2018-05-27 10:13:16
-18	Jaundince	S	2018-05-27 10:14:00	2018-05-27 10:14:00
+18	Jaundice	S	2018-05-27 10:14:00	2018-06-03 01:51:59
 19	Weight Change	S	2018-05-27 10:14:31	2018-05-27 10:14:31
 20	Abdominal Trauma	I	2018-05-28 11:06:04	2018-05-28 11:06:04
 21	Abdominal Rigidity	S	2018-05-28 11:07:07	2018-05-28 11:07:07
@@ -23,7 +23,7 @@ id	name	condition_type_id	date_created	date_modified
 23	Hyperactive Bowel Sounds	S	2018-05-28 11:10:51	2018-05-28 11:10:51
 25	Vomiting	S	2018-05-28 11:13:16	2018-05-28 11:13:16
 26	Cirrhosis	I	2018-05-29 10:03:47	2018-05-29 10:03:47
-27	Contispation	S	2018-05-29 10:04:42	2018-05-29 10:04:42
+27	Constipation	S	2018-05-29 10:04:42	2018-06-03 02:03:38
 28	Diarrhea	S	2018-05-29 10:05:31	2018-05-29 10:05:31
 29	Edema	S	2018-05-29 10:08:42	2018-05-29 10:08:42
 30	Fever	S	2018-05-29 10:09:07	2018-05-29 10:09:07
