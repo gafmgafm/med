@@ -3,7 +3,7 @@
 require_once('zheader.php');
 require_once('dao/publication_dao.php');
 
-echo '<h1>Publication List</h1>'.PHP_EOL;
+echo '<h1>Publications List</h1>'.PHP_EOL;
 
 $data = PublicationDAO::all();
 
