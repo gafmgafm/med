@@ -29,7 +29,7 @@ $data = PublicationDAO::get($id);
     </div>
     <div class="form-group">
         <label for="publication_type_id">Publication Type</label>
-        <?php HtmlHelper::formSelect(PublicationTypeDAO::all(), 'publication_type_id', $data['publication_type_id'], true); ?>
+        <?php HtmlHelper::formSelect(PublicationTypeDAO::all('name'), 'publication_type_id', $data['publication_type_id'], true); ?>
     </div>
     <input type="hidden" name="xaction" value="save" />
     <button type="submit" class="btn btn-primary">Save</button>

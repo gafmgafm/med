@@ -18,6 +18,8 @@
             <li><a class="nav-link">&nbsp;|&nbsp;</a></li>
             <li><a class="nav-link" href="/condition_type_list.php">Condition Type</a></li>
             <li><a class="nav-link" href="/relation_type_list.php">Relation Type</a></li>
+            <li><a class="nav-link" href="/publication_type_list.php">Publication Type</a></li>
+        </ul>
     </nav>
 <?php
 error_reporting(-1);
