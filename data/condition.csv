@@ -20,7 +20,7 @@ id	name	condition_type_id	date_created	date_modified
 20	Abdominal Trauma	I	2018-05-28 11:06:04	2018-05-28 11:06:04
 21	Abdominal Rigidity	S	2018-05-28 11:07:07	2018-05-28 11:07:07
 22	Absent Bowel Sounds	S	2018-05-28 11:10:04	2018-05-28 11:10:04
-23	Hyperactive Bowel Sounds	S	2018-05-28 11:10:51	2018-05-28 11:10:51
+23	Hyperactive Bowel Sounds	S	2018-05-28 11:10:51	2018-06-03 04:38:35
 25	Vomiting	S	2018-05-28 11:13:16	2018-05-28 11:13:16
 26	Cirrhosis	I	2018-05-29 10:03:47	2018-05-29 10:03:47
 27	Constipation	S	2018-05-29 10:04:42	2018-06-03 02:03:38
