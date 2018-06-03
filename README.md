@@ -25,7 +25,7 @@ php -S localhost:8080
 
 Now open in your browser localhost:8080 and use the data entry tool.
 
-Once you have finished editing the data, we will convert back to csv format so it can be sent to repository.
+Once you have finished editing the data, we will convert back to csv format so it can be sent to the repository.
 
 ```
 cd data\tools
