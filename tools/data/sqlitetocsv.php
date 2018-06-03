@@ -8,6 +8,8 @@ $sqliteFile = DEFAULT_DB_PATH;
 logmsg('Converting CSV to SQLite');
 logmsg("Database=$sqliteFile");
 
+require('datahygiene.php');
+
 logmsg('Writing files');
 $db = getDatabase($sqliteFile);
 
