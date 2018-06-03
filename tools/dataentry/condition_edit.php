@@ -1,6 +1,7 @@
 <?php 
 
 require_once('zheader.php');
+require_once('dao/condition_aka_dao.php');
 require_once('dao/condition_dao.php');
 require_once('dao/condition_type_dao.php');
 require_once('dao/condition_group_member_dao.php');
@@ -44,6 +45,21 @@ $conditionNameEncoded = urlencode($data['name']);
     <input type="hidden" name="xaction" value="save" />
     <button type="submit" class="btn btn-primary pull-right">Save</button>
 </form>
+
+<h2>Also Known As <a href="condition_aka_new.php?condition_id=<?= $id ?>" class="btn btn-primary ml-3">Add</a></h2>
+<?php
+$data = ConditionAkaDAO::getByConditionId($id);
+if (sizeof($data) == 0) {
+    echo '<p>No Alias Found</p>'.PHP_EOL;
+} else {
+    HtmlHelper::tableHeader(array('Id', 'Name', 'Simple', 'Action'));
+    foreach ($data as $row) {
+        $row[] = "<a href=condition_aka_delete.php?condition_aka_id={$row[0]}&redirect=$PAGE>Delete</a>";
+        HtmlHelper::tableRow($row);
+    }
+    HtmlHelper::tableFooter();
+}
+?>
 
 <h2>Group</h2>
 <?php
