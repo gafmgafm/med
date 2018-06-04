@@ -12,4 +12,16 @@ class PublicationTypeDAO {
         return $data;
     }
 
+    public static function add($name) {
+        $db = getDatabase();
+        $stmt = $db->prepare("INSERT INTO publication_type (name) VALUES (?)");
+        $stmt->execute(array($name));
+    }
+
+    public static function delete($id) {
+        $db = getDatabase();
+        $stmt = $db->prepare("DELETE FROM publication_type WHERE id = ?");
+        $stmt->execute(array($id));
+    }
+
 }
