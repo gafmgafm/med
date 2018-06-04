@@ -7,7 +7,7 @@ $search = isset($_GET['search']) ? $_GET['search'] : '';
 
 ?>
 
-<h1>Conditions List <a href="condition_new.php" class="btn btn-primary ml-3">New</a></h1>
+<h1>Conditions List <a href="condition_new.php" class="btn btn-primary ml-3">Add</a></h1>
 
 <div class="row">
     <div class="col-12">
