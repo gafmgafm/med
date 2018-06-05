@@ -2,6 +2,7 @@
 
 require_once('zheader.php');
 require_once('dao/condition_dao.php');
+require_once('dao/condition_aka_dao.php');
 
 $search = isset($_GET['search']) ? $_GET['search'] : '';
 
@@ -35,6 +36,19 @@ foreach ($data as $row) {
     HtmlHelper::tableRow($row);
 }
 HtmlHelper::tableFooter();
+
+if ($search != '') {
+    $data = ConditionAkaDAO::searchName($search);
+
+    if (sizeof($data) > 0) {
+        HtmlHelper::tableHeader(array('Id', 'Alias (Condition)'));
+        foreach ($data as $row) {
+            $row[0] = "<a href=condition_edit.php?id={$row[0]}>{$row[0]}</a>";
+            HtmlHelper::tableRow($row);
+        }
+        HtmlHelper::tableFooter();
+    }
+}
 
 require_once('zfooter.php'); 
 ?>

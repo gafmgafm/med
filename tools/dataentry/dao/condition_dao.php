@@ -44,7 +44,7 @@ class ConditionDAO {
 
     public static function lookup($term) {
         $db = getDatabase();
-        $stmt = $db->prepare("SELECT id, name FROM condition WHERE lower(name) like '%' || ? || '%'");
+        $stmt = $db->prepare("SELECT id, name FROM condition WHERE lower(name) LIKE '%' || ? || '%'");
         $stmt->execute(array($term));
         $data = $stmt->fetchAll(PDO::FETCH_NUM);
         return $data;

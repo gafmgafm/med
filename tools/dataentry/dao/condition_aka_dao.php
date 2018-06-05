@@ -24,6 +24,14 @@ class ConditionAkaDAO {
         $stmt->execute(array($id));
     }
 
+    public static function searchName($term) {
+        $db = getDatabase();
+        $stmt = $db->prepare("SELECT ca.condition_id, ca.name || ' (' || c.name || ')' FROM condition_aka ca JOIN condition c ON  ca.condition_id = c.id WHERE ca.name LIKE '%' || ? || '%'");
+        $stmt->execute(array($term));
+        $data = $stmt->fetchAll(PDO::FETCH_NUM);
+        return $data;
+    }
+
 }
 
 ?>
