@@ -46,3 +46,10 @@ id	name	condition_type_id	date_created	date_modified
 47	Aortic Aneurysm	I	2018-06-01 23:32:40	2018-06-01 23:32:40
 48	Cholecystitis	I	2018-06-01 23:36:34	2018-06-01 23:36:34
 49	Cholelithiasis	I	2018-06-01 23:37:17	2018-06-01 23:37:17
+50	Gallbladder Carcinoma	I	2018-06-05 07:13:57	2018-06-05 07:13:57
+51	Gastric Carcinoma	I	2018-06-05 07:14:45	2018-06-05 07:14:45
+52	Hernia	I	2018-06-05 07:17:11	2018-06-05 07:17:11
+53	Hydronephrosis	I	2018-06-05 07:18:27	2018-06-05 07:18:27
+54	Pancreatic Abscess	I	2018-06-05 07:22:13	2018-06-05 07:22:13
+55	Pancreatic Pseudocysts	I	2018-06-05 07:23:16	2018-06-05 07:23:16
+56	Renal Cell Carcinoma	I	2018-06-05 07:24:07	2018-06-05 07:24:07
