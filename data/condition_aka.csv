@@ -33,3 +33,6 @@ id	name	is_simple	condition_id	date_created	date_modified
 32	Gall Bladder Inflamation	Y	48	2018-06-03 02:21:02	2018-06-03 02:21:02
 33	Gallstones	Y	49	2018-06-03 02:21:15	2018-06-03 02:21:15
 34	Abnormal Kidney Enlargement	Y	53	2018-06-05 07:20:05	2018-06-05 07:20:05
+35	Regional Ileitis	N	61	2018-06-05 09:24:13	2018-06-05 09:24:13
+36	Uterine Fibroids	N	63	2018-06-05 09:27:09	2018-06-05 09:27:09
+37	Enlarged Spleen	Y	65	2018-06-05 09:40:06	2018-06-05 09:40:06
