@@ -36,3 +36,8 @@ id	name	is_simple	condition_id	date_created	date_modified
 35	Regional Ileitis	N	61	2018-06-05 09:24:13	2018-06-05 09:24:13
 36	Uterine Fibroids	N	63	2018-06-05 09:27:09	2018-06-05 09:27:09
 37	Enlarged Spleen	Y	65	2018-06-05 09:40:06	2018-06-05 09:40:06
+38	Hemoglobin Low	N	69	2018-06-07 09:38:58	2018-06-07 09:38:58
+39	Lack of Energy	Y	70	2018-06-07 09:39:47	2018-06-07 09:39:47
+40	Tired All the Time	N	70	2018-06-07 09:39:59	2018-06-07 09:39:59
+41	Shortness of Breath	Y	71	2018-06-07 09:41:29	2018-06-07 09:41:29
+42	Tremor Palpitation	Y	77	2018-06-07 09:48:34	2018-06-07 09:48:34
