@@ -3,6 +3,7 @@
 define('DEFAULT_DB_PATH', __DIR__.'/../../data/data.sqlite');
 define('CSV_DELIMITER', "\t");
 define('TIMESTAMP_FORMAT', 'Y-m-d H:i:s');
+define('DEFAULT_GRAPHML_OUTPUT', __DIR__.'/../../data/data.graphml');
 
 error_reporting(E_ALL);
 
