@@ -64,7 +64,7 @@ function breakdown($fields) {
 }
 
 function removeStopWords($string) {
-    $stopWords = array('the', 'of', 'and');
+    $stopWords = array('the', 'of', 'and', 'in', 'at');
     $string = explode(' ', $string);
     $clean = array();
     foreach ($string as $word) {
