@@ -41,3 +41,10 @@ id	name	is_simple	condition_id	date_created	date_modified
 40	Tired All the Time	N	70	2018-06-07 09:39:59	2018-06-07 09:39:59
 41	Shortness of Breath	Y	71	2018-06-07 09:41:29	2018-06-07 09:41:29
 42	Tremor Palpitation	Y	77	2018-06-07 09:48:34	2018-06-07 09:48:34
+43	Red Blood Cells in Urine	Y	90	2018-06-11 00:29:30	2018-06-11 00:29:30
+44	Pus in Urine	Y	91	2018-06-11 00:31:08	2018-06-11 00:31:08
+45	Painful Urination	Y	92	2018-06-11 00:32:33	2018-06-11 00:32:33
+46	Low Amount of Urine	Y	93	2018-06-11 00:34:46	2018-06-11 00:34:46
+47	Large Volume of Urine	Y	94	2018-06-11 00:35:57	2018-06-11 00:35:57
+48	Urination at Night	Y	95	2018-06-11 00:37:12	2018-06-11 00:37:12
+49	High Arterial Blood Pressure	Y	96	2018-06-11 00:38:36	2018-06-11 00:38:36
