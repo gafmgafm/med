@@ -93,3 +93,6 @@ id	name	condition_type_id	date_created	date_modified
 94	Polyuria	S	2018-06-11 00:35:48	2018-06-11 00:35:48
 95	Nocturia	S	2018-06-11 00:36:59	2018-06-11 00:36:59
 96	Hypertension	S	2018-06-11 00:38:07	2018-06-11 00:38:07
+97	Low Back Pain	S	2018-06-12 07:16:27	2018-06-12 07:16:27
+98	Irregular Menstrual Cycle	S	2018-06-12 07:17:25	2018-06-12 07:17:25
+99	Hirsutism	S	2018-06-12 07:19:19	2018-06-12 07:19:19
