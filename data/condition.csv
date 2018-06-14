@@ -96,3 +96,6 @@ id	name	condition_type_id	date_created	date_modified
 97	Low Back Pain	S	2018-06-12 07:16:27	2018-06-12 07:16:27
 98	Irregular Menstrual Cycle	S	2018-06-12 07:17:25	2018-06-12 07:17:25
 99	Hirsutism	S	2018-06-12 07:19:19	2018-06-12 07:19:19
+100	Mottled Skin Below the Waist	S	2018-06-14 09:54:21	2018-06-14 09:54:58
+101	Absent Femoral Pulse	S	2018-06-14 10:00:25	2018-06-14 10:00:25
+102	Absent Pedal Pulse	S	2018-06-14 10:00:57	2018-06-14 10:00:57
