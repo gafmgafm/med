@@ -99,3 +99,8 @@ id	name	condition_type_id	date_created	date_modified
 100	Mottled Skin Below the Waist	S	2018-06-14 09:54:21	2018-06-14 09:54:58
 101	Absent Femoral Pulse	S	2018-06-14 10:00:25	2018-06-14 10:00:25
 102	Absent Pedal Pulse	S	2018-06-14 10:00:57	2018-06-14 10:00:57
+103	Adrenal Crisis	I	2018-06-15 10:08:37	2018-06-15 10:08:37
+104	Dehydration	S	2018-06-15 10:11:22	2018-06-15 10:11:22
+105	Loss of Consciousnes	S	2018-06-15 10:12:58	2018-06-15 10:12:58
+106	Delirium	S	2018-06-15 10:14:08	2018-06-15 10:14:08
+107	Seizure	S	2018-06-15 10:14:58	2018-06-15 10:14:58
