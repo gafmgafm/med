@@ -104,3 +104,6 @@ id	name	condition_type_id	date_created	date_modified
 105	Loss of Consciousnes	S	2018-06-15 10:12:58	2018-06-15 10:12:58
 106	Delirium	S	2018-06-15 10:14:08	2018-06-15 10:14:08
 107	Seizure	S	2018-06-15 10:14:58	2018-06-15 10:14:58
+108	Gastrointestinal Anthrax	I	2018-06-16 02:35:08	2018-06-16 02:35:08
+109	Bacillus Anthracis Infection	C	2018-06-16 02:35:55	2018-06-16 02:35:55
+110	Hematemesis	S	2018-06-16 02:39:59	2018-06-16 02:39:59
