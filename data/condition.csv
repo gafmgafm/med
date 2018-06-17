@@ -107,3 +107,5 @@ id	name	condition_type_id	date_created	date_modified
 108	Gastrointestinal Anthrax	I	2018-06-16 02:35:08	2018-06-16 02:35:08
 109	Bacillus Anthracis Infection	C	2018-06-16 02:35:55	2018-06-16 02:35:55
 110	Hematemesis	S	2018-06-16 02:39:59	2018-06-16 02:39:59
+111	Appendicitis	I	2018-06-17 00:23:35	2018-06-17 00:23:35
+112	Malaise	S	2018-06-17 00:28:36	2018-06-17 00:28:36
