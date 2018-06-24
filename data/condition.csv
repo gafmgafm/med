@@ -115,3 +115,6 @@ id	name	condition_type_id	date_created	date_modified
 116	Heartburn	S	2018-06-23 01:09:14	2018-06-23 01:09:14
 117	Vaginal Bleeding	S	2018-06-23 01:11:07	2018-06-23 01:11:07
 118	Amenorrhea	S	2018-06-23 01:12:15	2018-06-23 01:12:15
+119	Endometriosis	I	2018-06-24 07:50:58	2018-06-24 07:50:58
+120	Dysmenorrhea	S	2018-06-24 07:52:59	2018-06-24 07:52:59
+121	Dyspareunia	S	2018-06-24 07:53:55	2018-06-24 07:53:55
