@@ -118,3 +118,5 @@ id	name	condition_type_id	date_created	date_modified
 119	Endometriosis	I	2018-06-24 07:50:58	2018-06-24 07:50:58
 120	Dysmenorrhea	S	2018-06-24 07:52:59	2018-06-24 07:52:59
 121	Dyspareunia	S	2018-06-24 07:53:55	2018-06-24 07:53:55
+122	Escherichia Coli	I	2018-06-25 08:58:35	2018-06-25 08:58:35
+123	Escherichia Coli O157:H7 Infection	C	2018-06-25 08:59:03	2018-06-25 08:59:03
