@@ -54,3 +54,5 @@ id	name	is_simple	condition_id	date_created	date_modified
 53	Absent Menstruation	Y	118	2018-06-23 01:12:35	2018-06-23 01:12:35
 54	Menstrual Cramps	Y	120	2018-06-24 07:53:23	2018-06-24 07:53:23
 55	Painful Sexual Intercourse	Y	121	2018-06-24 07:54:21	2018-06-24 07:54:21
+56	Inflammation of the Stomach Lining	Y	125	2018-06-26 08:44:43	2018-06-26 08:44:43
+57	Dark-colored Tarry Stools	Y	126	2018-06-26 08:48:30	2018-06-26 08:48:30

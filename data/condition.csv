@@ -120,3 +120,6 @@ id	name	condition_type_id	date_created	date_modified
 121	Dyspareunia	S	2018-06-24 07:53:55	2018-06-24 07:53:55
 122	Escherichia Coli	I	2018-06-25 08:58:35	2018-06-25 08:58:35
 123	Escherichia Coli O157:H7 Infection	C	2018-06-25 08:59:03	2018-06-25 08:59:03
+124	Gastric Ulcer	I	2018-06-26 08:42:36	2018-06-26 08:42:36
+125	Gastritis	I	2018-06-26 08:44:04	2018-06-26 08:44:04
+126	Melena	S	2018-06-26 08:48:15	2018-06-26 08:48:15
