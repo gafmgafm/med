@@ -132,3 +132,5 @@ id	name	condition_type_id	date_created	date_modified
 133	Listeria Monocytogenes Infection	C	2018-06-30 00:43:51	2018-06-30 00:44:29
 134	Myalgia	S	2018-06-30 00:45:14	2018-06-30 00:45:14
 135	Meningites	I	2018-06-30 00:46:57	2018-06-30 00:46:57
+136	Gastroenteritis	I	2018-07-02 10:10:28	2018-07-02 10:10:28
+137	Headache	S	2018-07-02 10:11:58	2018-07-02 10:11:58
