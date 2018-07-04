@@ -136,3 +136,5 @@ id	name	condition_type_id	date_created	date_modified
 137	Headache	S	2018-07-02 10:11:58	2018-07-02 10:11:58
 138	Norovirus	I	2018-07-03 10:26:56	2018-07-03 10:26:56
 139	Pancreatitis	I	2018-07-03 10:29:33	2018-07-03 10:29:33
+140	Pelvic Inflammatory Disease	I	2018-07-04 07:38:25	2018-07-04 07:38:25
+141	Metrorrhagia	S	2018-07-04 07:39:12	2018-07-04 07:39:12
