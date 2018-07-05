@@ -138,3 +138,5 @@ id	name	condition_type_id	date_created	date_modified
 139	Pancreatitis	I	2018-07-03 10:29:33	2018-07-03 10:29:33
 140	Pelvic Inflammatory Disease	I	2018-07-04 07:38:25	2018-07-04 07:38:25
 141	Metrorrhagia	S	2018-07-04 07:39:12	2018-07-04 07:39:12
+142	Prostatitis	I	2018-07-05 07:00:20	2018-07-05 07:00:20
+143	Arthralgia	S	2018-07-05 07:01:50	2018-07-05 07:01:50
