@@ -60,3 +60,4 @@ id	name	is_simple	condition_id	date_created	date_modified
 59	Indigestion	Y	131	2018-06-30 00:41:33	2018-06-30 00:41:33
 60	Muscle Pain	Y	134	2018-06-30 00:45:34	2018-06-30 00:45:34
 61	Abnormal Bleeding from the Uterus	Y	141	2018-07-04 07:39:33	2018-07-04 07:39:33
+62	Kidney Stones	Y	145	2018-07-10 09:12:03	2018-07-10 09:12:03
