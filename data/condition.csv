@@ -143,3 +143,5 @@ id	name	condition_type_id	date_created	date_modified
 144	Pyelonephritis	I	2018-07-06 12:47:24	2018-07-06 12:47:24
 145	Renal Calculi	I	2018-07-10 09:11:53	2018-07-10 09:11:53
 146	Smallpox	I	2018-07-11 10:03:22	2018-07-11 10:03:22
+147	Splenic Infarction	I	2018-07-12 10:21:32	2018-07-12 10:21:32
+148	Ulcerative Colitis	I	2018-07-12 10:27:02	2018-07-12 10:27:02
