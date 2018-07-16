@@ -145,3 +145,10 @@ id	name	condition_type_id	date_created	date_modified
 146	Smallpox	I	2018-07-11 10:03:22	2018-07-11 10:03:22
 147	Splenic Infarction	I	2018-07-12 10:21:32	2018-07-12 10:21:32
 148	Ulcerative Colitis	I	2018-07-12 10:27:02	2018-07-12 10:27:02
+149	Acute Respiratory Distress Syndrome	I	2018-07-13 10:51:23	2018-07-13 10:51:23
+150	Airway Obstruction	I	2018-07-16 10:19:37	2018-07-16 10:19:37
+151	Inspiratory Instridor	S	2018-07-16 10:20:13	2018-07-16 10:20:13
+152	Coughing	S	2018-07-16 10:23:21	2018-07-16 10:23:21
+153	Drooling	S	2018-07-16 10:23:55	2018-07-16 10:23:55
+154	Intercostal Retractions	S	2018-07-16 10:24:24	2018-07-16 10:24:24
+155	Cyanosis	S	2018-07-16 10:25:03	2018-07-16 10:25:03
