@@ -166,3 +166,5 @@ id	name	condition_type_id	date_created	date_modified
 167	Emphysema	I	2018-07-19 10:08:22	2018-07-19 10:08:22
 168	Barrel Chest	S	2018-07-19 10:09:28	2018-07-19 10:09:28
 169	Pneumonia	I	2018-07-22 02:32:05	2018-07-22 02:32:05
+170	Pulmonary Edema	I	2018-07-23 09:41:24	2018-07-23 09:41:24
+171	Orthopnea	S	2018-07-23 09:42:14	2018-07-23 09:42:14
