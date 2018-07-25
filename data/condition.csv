@@ -168,3 +168,5 @@ id	name	condition_type_id	date_created	date_modified
 169	Pneumonia	I	2018-07-22 02:32:05	2018-07-22 02:32:05
 170	Pulmonary Edema	I	2018-07-23 09:41:24	2018-07-23 09:41:24
 171	Orthopnea	S	2018-07-23 09:42:14	2018-07-23 09:42:14
+172	Pulmonary Embolism	I	2018-07-25 07:19:14	2018-07-25 07:19:14
+173	Syncope	S	2018-07-25 07:20:45	2018-07-25 07:20:45
